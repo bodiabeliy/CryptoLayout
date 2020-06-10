@@ -1,0 +1,171 @@
+body
+{
+  height: 2000px;
+}
+
+
+.carousel-control-next-icon:hover, .carousel-control-prev-icon:hover
+{
+  height:40px;
+  width:40px;
+}
+
+
+.carousel-indicators li
+{
+  width:50px;
+  height:1%;
+}
+
+.modal-header
+{
+  background-color: white;
+}
+
+.modal-body
+{
+   background-color: white;
+}
+
+.modal-header h4
+{
+  color: grey;
+}
+
+.btn-primary
+{
+  margin-left:99px;
+}
+
+.modal-body h6
+{
+  color: rgb(1, 8, 255);
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+    font-family: monospace;
+}
+
+ul {
+  background:  rgb(0, 0, 0);
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+li {
+	text-align: center;
+    color: #fff;
+    background:  rgb(0, 0, 0);
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.7s;
+}
+
+li a
+{
+  font-family: 'Calistoga', cursive;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-item li a:hover
+{
+  text-decoration: none;
+  color: white;
+}
+
+li:hover,
+li:focus-within
+{
+    background: rgba(165, 165, 165, 0.9);
+    cursor: pointer;
+}
+
+li:focus-within a {
+  outline: none;
+}
+
+ul li ul
+{
+    background: orange;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 1.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+}
+
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus {
+  visibility: visible;
+  opacity: 1;
+  display: block
+}
+
+ul li ul li
+{
+  clear: both;
+  width: 100%;
+}
+
+
+footer p{
+  color: white;
+}
+
+footer
+{
+  background: rgba(165, 165, 165, 0.9);
+}
+
+footer a
+{
+    color: white;
+}
+
+h6
+{
+  color: white;
+}
+
+.col-xs-12
+{
+  margin-bottom: 170px;
+}
+
+.col-xs-12 h3
+{
+  font-family: 'Pacifico', cursive;
+}
+
+.col-xs-12-col-sm-4 p
+{
+  font-family: 'Calistoga', cursive;
+}
+
+
+
+
+.video h3
+{
+	font-family: 'Bebas Neue', cursive;
+}
+.card p
+{
+	font-family: 'Tomorrow', sans-serif;
+}
+
+
